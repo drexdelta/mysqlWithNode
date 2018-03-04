@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Node database tutorial</title>
+    </head>
+    <body>
+        <form class="CreateUser">
+            <h1>Create a new user</h1>
+            <input type="text" id="signupName" placeholder="username">
+            <input type="password" id="signupPassword" placeholder="password">
+            <input type="text" id="signupGender" placeholder="Male/Female">
+            <input type="handle" id="signupHandle" placeholder="handle">
+            <input type="submit" value = "sign up">
+        </form>
+
+        <form class="Login">
+            <h1> login here </h1>
+            <input type="text" id="loginId" placeholder="userId">
+            <input type="password" id="loginPassword" placeholder="password">
+            <input type="submit" value = "sign up">
+        </form>
+
+        <form class="writePost">
+            <h1> write post and user id </h1>
+            <input type="text" id="writePostId" placeholder="userId">
+            <input type="text" id="writePostContent" placeholder="content">
+            <input type="submit" value = "write post">
+        </form>
+
+        <form class="fetchPostsOfUser">
+            <h1> get posts of user </h1>
+            <input type="text" id="fetchPostOfUserId" placeholder="userId">
+            <input type="submit" value = "fetch user posts">
+        </form>
+
+        <form class="fetchRecentPost">
+            <h1> fetching recent posts </h1>
+            <input type="submit" value = "getRecentPosts">
+        </form>
+
+
+        <script src="/app.js"></script>
+
+    </body>
+
+</html>
